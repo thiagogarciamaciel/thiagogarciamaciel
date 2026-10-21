@@ -4,8 +4,6 @@
  
 Há quase sete anos trabalho com entrega de software: hoje coordeno um cluster de até 12 squads (cerca de 80 pessoas) em um grande banco, em ambiente regulado, com foco em métricas de engenharia (DORA, lead time), OKRs e coaching de Product Owners. Comecei a carreira como desenvolvedor Java e sigo próximo da tecnologia.
  
-Alguns resultados do meu trabalho: lead time das features de **130 para 60 dias**, esforço por ponto de função de **120 para 35 horas** e retrabalho de **11% para 2%**.
- 
 ## Projeto em andamento: sistema de gestão de obras (estudo e portfólio)
  
 Desde julho de 2026 construo, sozinho, um sistema de gestão de obras que cobre o ciclo financeiro da operação: cotação com fornecedores concorrentes, medição quinzenal, taxa de administração, comprovantes, conciliação e indicadores por metro quadrado. A visão final é uma plataforma web com aplicativos Android e iOS. O repositório é privado e há um piloto controlado previsto para janeiro de 2027.
@@ -15,7 +13,7 @@ O diferencial é o **modelo de trabalho**: o código é escrito por dois agentes
 **Como o processo funciona**
  
 - **Autonomia em três níveis** (alta, guiada e restrita): um classificador roda em cada PR e decide, por tipo de arquivo alterado, o que um agente pode mergear sozinho e o que exige meu aceite. Um PR não consegue baixar o próprio nível.
-- **Definition of Ready e Definition of Done** por história, com decisões de produto registradas e bloqueio formal quando falta decisão minha (mais de 20 histórias entregues nesse fluxo).
+- **Definition of Ready e Definition of Done** por história, com decisões de produto registradas e bloqueio formal quando falta decisão minha (mais de 50 histórias entregues nesse fluxo).
 - **Revisão obrigatória por revisores especializados** (regras financeiras e privacidade de dados) antes de qualquer merge nessas áreas.
 - **Documentação como contrato entre os agentes**: regras de negócio, contratos de API e processo; toda mudança de norma entra nos arquivos de instrução dos dois agentes no mesmo PR.
  
@@ -43,8 +41,6 @@ O diferencial é o **modelo de trabalho**: o código é escrito por dois agentes
  
 For almost seven years I have worked in software delivery. Today I coordinate a cluster of up to 12 squads (about 80 people) at a large bank in a regulated environment, focusing on engineering metrics (DORA, lead time), OKRs and coaching Product Owners. I started my career as a Java developer and I stay close to the technology.
  
-Some results: feature lead time down from **130 to 60 days**, effort per function point from **120 to 35 hours**, and rework from **11% to 2%**.
- 
 ## Ongoing project: construction management system (study and portfolio)
  
 Since July 2026 I have been building, on my own, a construction management system that covers the financial cycle of the operation: quotes from competing suppliers, bi-weekly measurements, administration fee, payment receipts, reconciliation and per-square-meter indicators. The target is a web platform with Android and iOS apps. The repository is private, and a controlled pilot is planned for January 2027.
@@ -54,7 +50,7 @@ The differentiator is the **way of working**: the code is written by two AI agen
 **How the process works**
  
 - **Three autonomy levels** (high, guided and restricted): a classifier runs on every PR and decides, by file type, what an agent can merge alone and what needs my explicit approval. A PR cannot lower its own level.
-- **Definition of Ready and Definition of Done** per story, with recorded product decisions and a formal block when a decision from me is missing (20+ stories delivered this way).
+- **Definition of Ready and Definition of Done** per story, with recorded product decisions and a formal block when a decision from me is missing (50+ stories delivered this way).
 - **Mandatory review by specialized reviewers** (financial rules and data privacy) before any merge that touches those areas.
 - **Documentation as a contract between agents**: business rules, API contracts and process; every rule change goes into both agents' instruction files in the same PR.
  
